@@ -1,7 +1,9 @@
  #Defining Variables
 
 # Tu solucion abajo
-
+first_name = 'Jose'
+last_name = 'Medina'
+age = 25
 
 # Pruebas NO LAS BORRES
 
