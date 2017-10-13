@@ -2,7 +2,10 @@
 
 # Tu solucion abajo
 
-
+first_name = "local-variable"
+last_name = "local-variable"
+age = 40
+   
 # Pruebas NO LAS BORRES
 
 
@@ -28,7 +31,7 @@ end
 
 describe 'age' do
   it "is defined as a local variable" do
-    expect(defined?(age)).to eq 'local-variable'
+    expect(defined?(age)).to eq 40
   end
 
   it "is an integer" do

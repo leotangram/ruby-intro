@@ -2,6 +2,8 @@
 
 # Tu solucion abajo:
 
+old_string = "Ruby is cool"
+new_string = "LOOC SI YBUR"
 
 # Pruebas NO LAS BORRES
 
