@@ -11,7 +11,6 @@ def get_grade (nota)
 	elsif nota>59
 		"D"
 	elsif nota<60
-		"F"
-	end	
+		"F"	
 end
 
