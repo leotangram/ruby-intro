@@ -1,7 +1,6 @@
  #Defining Variables
 
 # Tu solucion abajo
-<<<<<<< HEAD
 first_name = 'Jose'
 last_name = 'Medina'
 age = 25
