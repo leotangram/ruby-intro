@@ -10,3 +10,5 @@ def leap_year?(year)
   year % 4 == 0
 end
 
+p leap_year?(2000) # => true
+p leap_year?(2001) # => false
