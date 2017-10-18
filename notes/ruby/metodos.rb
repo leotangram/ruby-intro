@@ -1,5 +1,20 @@
 require 'pry'
 
+def say_hello_to_person(name, height = 31, blah)
+  # Guard Clause
+  return "chao" if name == "Maduro"
+  "Hola como estas"
+end
+
+saludo = say_hello_to_person("Juan", 27, 'balha', 'bli', 'blu', 4123, [42314,4234], false)
+
+p saludo
+
+
+
+
+
+
 # Metodos
 
 # Es un porcion de codigo reutilizable
@@ -51,57 +66,58 @@ require 'pry'
 # end
 
 # puts nums_times_two
-num = 1
+# num = 1
 
-while num < 5
-  puts "blah #{num}"
-  num += 1
-end
-
-
-10.times do
-  puts 'fasdfas'
-end
-
-(5...10).each do |num|
-end
+# while num < 5
+#   puts "blah #{num}"
+#   num += 1
+# end
 
 
+# 10.times do
+#   puts 'fasdfas'
+# end
+
+# (5...10).each do |num|
+# end
 
 
-nums = [1,2,3,4,4,4] #Input
-sum = 0 # Output
-
-nums.each do |num|
-  sum = sum + num
-end
-
-nums.reduce(0) do |sum, num|
-  sum += num
-  sum
-end
-
-nums.reduce(0) {|sum,num| sum += num}
 
 
-persona = {name: 'juan', age: 2342, color: 'blue'}
-
-persona.each do |key, value|
-
-end
-
-
-# nums_times_two = [2,4,6,4,10,12]
-# nums[2]
-# nums[2]
-# nums.each {|num| nums_times_two = nums[num*2]; binding.pry}
-
-# puts nums_times_two
-
+# nums = [1,2,3,4,4,4] #Input
+# sum = 0 # Output
 
 # nums.each do |num|
-#   nums_times_two = [num * 2]
+#   sum = sum + num
 # end
+
+# nums.reduce(0) do |sum, num|
+#   sum += num
+#   sum
+# end
+
+# nums.reduce(0) {|sum,num| sum += num}
+
+
+# persona = {name: 'juan', age: 2342, color: 'blue'}
+
+# persona.each do |key, value|
+
+# end
+
+
+# # nums_times_two = [2,4,6,4,10,12]
+# # nums[2]
+# # nums[2]
+# # nums.each {|num| nums_times_two = nums[num*2]; binding.pry}
+
+# # puts nums_times_two
+
+
+# # nums.each do |num|
+# #   nums_times_two = [num * 2]
+# # end
+
 
 
 
