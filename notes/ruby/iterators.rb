@@ -1,3 +1,6 @@
+#-cliclos
+
+#-Loops 
 i=0
 loop do
   i += 1
@@ -26,6 +29,8 @@ until i > 10
   print "#{i} "
   i+=1
 end
+
+#-Iteradores
 
 for i in ['hola', 'como', 'estas']
   print "#{i} "
