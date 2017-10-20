@@ -1,7 +1,11 @@
 # Expresiones regulares:
 
 # Nos sirven para encontrar patrones en strings, tales como placas de carros, tarjetas de credito, correos electronicos o culquier cosa que busquemos.
+Para validar una placa
+/^[A-Z]{3}\d{3}$/
 
+Para Validar una tarjeta de crédito:
+/^\d{4}[\ \-]?\d{4}[\ \-]?\d{4}[\ \-]?\d{4}[\ \-]?/
 
 # Algunos patrones:
 /\d/ #-> Cualquier digito
