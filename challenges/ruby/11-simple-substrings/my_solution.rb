@@ -1,11 +1,15 @@
 # Simple Substrings
 
-def welcome (addres )
-	if addres.match_str "#{'CA'}"
+def welcome (addres)
+
+
+	if addres =~/CA/
+
 		"Welcome to California"
-		else
-			"You should move to California"
-	
+
+	else	 	  	 
+
+		"You should move to California"	 
 	end		
 end
 # Tu solucion abajo:

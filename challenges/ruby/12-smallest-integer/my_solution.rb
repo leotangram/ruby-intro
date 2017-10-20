@@ -1,16 +1,20 @@
 # Smallest Integer
-nums=[]
-def smallest_integer([x])
-	menor=0
-		x.each do |[y]|
-			if menor <= y
-				menor = menor
 
-				else 
-				menor= y 
-		end
-	end
+def smallest_integer(arra)
+	
+	arra.min
 end
 
 
-smallest_integer(0)
+puts smallest_integer [0]
+puts smallest_integer [-10]
+puts smallest_integer [-10,0,10]
+puts smallest_integer [1,2,3]
+puts smallest_integer [-12,-20,-30]
+puts smallest_integer [1..100]
+puts smallest_integer [-100..-10]
+
+
+
+
+
