@@ -1,8 +1,8 @@
 # Leap Years
-def leap_year? (year)
-	if year % 400 == 0
+def leap_year? (a)
+	if a % 400 == 0
 	true
-	elsif year % 4 == 0 && year % 100 != 0
+	elsif a % 4 == 0 && a % 100 != 0
 	true
 	else
 	false	

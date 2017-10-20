@@ -10,8 +10,8 @@ describe "make_address" do
   end
 
   it 'returns the properly formatted address string' do
-    output_string = "You live at 633 Folsom St., in the beautiful city of San Francisco, CA. Your zip is 94107."
-    expect(make_address("633 Folsom St.","San Francisco","CA",94107)).to eq output_string
+    output_string = "You live at 91 con 15., in the beautiful city of medellin, Cundinamarca. Your zip is 94107."
+    expect(make_address("91 con 15", "medellin", "Cundinamarca", 94107)).to eq output_string
   end
 end
 
