@@ -2,10 +2,12 @@
 
 # Tu solucion abajo
 
+
 first_name = "local-variable"
 last_name = "local-variable"
 age = 40
    
+
 # Pruebas NO LAS BORRES
 
 

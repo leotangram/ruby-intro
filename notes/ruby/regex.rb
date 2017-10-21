@@ -7,6 +7,7 @@ Para validar una placa
 Para Validar una tarjeta de crédito:
 /^\d{4}[\ \-]?\d{4}[\ \-]?\d{4}[\ \-]?\d{4}[\ \-]?/
 
+
 # Algunos patrones:
 /\d/ #-> Cualquier digito
 /\d{4}/ #-> 4 digitos seguidos
@@ -36,11 +37,12 @@ Para Validar una tarjeta de crédito:
 
 #Ejercicio
 
+"stostt"
+"sstt"
+"stt"
 # Crea una expresion regular que haga match a
 # Un cuadrado seguido por un triangulo y un circulo opcionales seguido por un cuadrado opcional seguido por 2 triangulos seguido por el final del string
 
-
-mentor\s(\w*)\sage\s(\d*)
 
 #Respuestax
 /s(tc)?s?t{2}\z/
