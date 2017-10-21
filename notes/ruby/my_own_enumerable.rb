@@ -3,6 +3,7 @@ word_array = %w[hola como estas]
   # Returns a new array with the results of running block once for every element in enum.
 
   # Programacion funcional
+  # Higher order function
   def my_map(array)
     result = []
     array.length.times do |element|
@@ -11,6 +12,7 @@ word_array = %w[hola como estas]
     result
   end
 
+  # Callbacks
   result = my_map([1,2,3]) do |num|
     num + 1
   end
