@@ -10,11 +10,29 @@ require 'pry'
 # Propiedades del Perro
 # Comportamientos del Perro
 
+class Mammal
+  def initialize
+    @drinks_milk = true
+  end
+
+  def sucks
+    'Glup glup....'
+  end
+end
+
+
+
 # Fabrica || Plano
-class Dog
+class Dog < Mammal
   attr_reader :breed, :size, :age, :sex
   attr_writer :size
   attr_accessor :color
+
+  @@dogs = 0
+
+  def self.dog_count
+    @@dogs
+  end
 
   def initialize(name, breed, size, color, age, sex)
     @name = name
@@ -23,6 +41,7 @@ class Dog
     @color = color
     @age = age
     @sex = sex
+    @@dogs += 1
   end
 
   # Getters o Readers
@@ -44,11 +63,16 @@ class Dog
   end
 
   def grow!
-    self.age += 1
+    self.age += 2
   end
 
   def self.party(dogs)
     "Uuuaua turu #{dogs.first.name} #{dogs.last.name} si fiestaa!!"
+  end
+
+
+  def to_s
+    "Mi nombro es #{@name} y tengo #{@age} años"
   end
 
 end
@@ -57,6 +81,7 @@ end
 
 oliva = Dog.new('oliva','shitzu', 'pequeño', 'blanca', 2, 'hembra')
 ozu = Dog.new('ozu','bulldog frances', 'pequeño', 'negro', 7, 'macho')
+
 binding.pry
 ozu.name
 ozu.name = 'blah'
@@ -73,6 +98,25 @@ oliva.grow!
 puts oliva.age # => 3
 puts oliva.bark # => "Woof woof"
 oliva.poop? # => true || false
+
+
+# Object
+# Jerarquia de clases
+
+# Herencia
+# DRY (Dont Repeat Yourself)
+  # Mantenible
+# KiSS (Keep it simple stupid)
+
+# Lookup chain
+
+
+
+
+
+
+
+
 
 
 
@@ -573,3 +617,18 @@ oliva.poop? # => true || false
 # dance_expert = C.request_help_on(:samba)
 
 # ConsoleHelper.render(sql_expert)
+
+class faskdf
+  fhasjdf
+end
+
+def method_name
+end
+
+[1,2,23].each do |fasdf|
+  fksdhfals
+end
+
+
+
+
