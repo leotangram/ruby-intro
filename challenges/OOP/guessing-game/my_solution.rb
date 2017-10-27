@@ -13,7 +13,7 @@ class GuessingGame
     # else
     #   :correct
     # end
-    case @guess <=> @answer
+    case 1 <=> 3
     when 1
       :high
     when -1
