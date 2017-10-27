@@ -10,8 +10,22 @@ require 'pry'
 # Propiedades del Perro
 # Comportamientos del Perro
 
+class Mammal
+  def initialize
+    @drinks_milk = true
+  end
+
+  def sucks
+    "Glup glup...."
+  end
+  def method_missing(method_id)
+    p method_id
+    "Upss"
+  end
+end
+
 # Fabrica || Plano
-class Dog
+class Dog < Mammal
   attr_reader :breed, :size, :age, :sex
   attr_writer :size
   attr_accessor :color
@@ -75,11 +89,15 @@ puts oliva.bark # => "Woof woof"
 oliva.poop? # => true || false
 
 
+# Object
+# Jerarquía de clases
 
+# Herencia
+# DRY (Dont Repeat Yourself)
+  # Mantenible
+# KISS (Keep it simple stupid)
 
-
-
-
+# Lookup Chain
 
 
 
