@@ -6,8 +6,6 @@ def leap_year?(year)
  end
 end
 
-
-
 def leap_year?(a)
   if a % 400 == 0
    true
@@ -17,17 +15,6 @@ def leap_year?(a)
    false
   end
 end
-
-
-
-
-
-
-
-
-
-
-
 
 def welcome(str)
   if str.include? "CA"
@@ -272,3 +259,5 @@ end
             false
           end
         end
+
+
