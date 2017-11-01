@@ -16,5 +16,7 @@ puts smallest_integer [-100..-10]
 
 
 
-
+def smallest_integer(arr)
+arr.min
+end
 

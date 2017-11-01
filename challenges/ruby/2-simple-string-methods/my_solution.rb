@@ -1,9 +1,14 @@
 # Simple String Methods
 
 # Tu solucion abajo:
+<<<<<<< HEAD
 
 old_string = "Ruby is cool"
 new_string = "LOOC SI YBUR"
+=======
+old_string="Ruby is cool"
+new_string=old_string.upcase.reverse
+>>>>>>> 9417980302dd420abbbb9d20887395aa6eb971c6
 
 # Pruebas NO LAS BORRES
 

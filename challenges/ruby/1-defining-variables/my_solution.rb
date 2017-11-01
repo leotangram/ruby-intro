@@ -2,11 +2,17 @@
 
 # Tu solucion abajo
 
+<<<<<<< HEAD
 
 first_name = "local-variable"
 last_name = "local-variable"
 age = 40
    
+=======
+first_name = 'Jose'
+last_name = 'Medina'
+age = 25
+>>>>>>> 9417980302dd420abbbb9d20887395aa6eb971c6
 
 # Pruebas NO LAS BORRES
 

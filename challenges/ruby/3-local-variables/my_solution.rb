@@ -2,6 +2,7 @@
 
 
 # Tu solucion abajo:
+<<<<<<< HEAD
 
 num1 = 1
 num2 = 2 
@@ -11,6 +12,16 @@ quotient = num1/num2.to_f
 product = num1 * num2
 modulus = num1%num2
 
+=======
+num1=123
+num2=232
+
+sum = num1 + num2
+difference = num1 - num2
+quotient = num1.to_f/num2.to_f
+product = num1*num2
+modulus = num1%num2
+>>>>>>> 9417980302dd420abbbb9d20887395aa6eb971c6
 # Pruebas NO LAS BORRES
 
 

@@ -2,7 +2,12 @@
 
 # Tu solucion abajo:
 
+my_info= {first_name: "Jose Ferney",
+          last_name: "Medina Serrato",
+          hometown: "Bogota DC",
+          age: 25}
 
+puts my_info
 
 # Pruebas NO LAS BORRES
 
